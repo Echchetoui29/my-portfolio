@@ -1,6 +1,6 @@
 import React from 'react';
 import { PERSONAL_INFO } from '../constants';
-import { Github, Linkedin } from './Icons';
+import { Github, Linkedin, Download } from './Icons';
 
 const Hero: React.FC = () => {
   return (
@@ -34,6 +34,14 @@ const Hero: React.FC = () => {
             >
               <Linkedin className="w-5 h-5" />
               LinkedIn
+            </a>
+            <a
+              href={PERSONAL_INFO.contacts.cv}
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-500 transition-colors"
+            >
+              <Download className="w-5 h-5" />
+              Download CV
             </a>
           </div>
         </div>

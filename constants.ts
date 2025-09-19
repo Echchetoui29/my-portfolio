@@ -13,6 +13,7 @@ export const PERSONAL_INFO = {
     linkedin: "https://www.linkedin.com/in/echchetoui-tariq/",
     github: "https://github.com/Echchetoui29",
     FaGitlab: "https://gitlab.com/tarikch456",
+    cv: "/CV_Echchetoui_Tariq.pdf",
   },
 };
 
@@ -113,7 +114,7 @@ export const PROJECTS_DATA: Project[] = [
 
 export const SKILLS_DATA: SkillCategory[] = [
     { name: 'Programming Languages', skills: ['Java', 'Python', 'PHP', 'JavaScript'] },
-    { name: 'Frameworks', skills: ['Spring Boot', 'Laravel', 'Vue.js', 'React', 'Flask'] },
+    { name: 'Frameworks', skills: ['Spring Boot', 'Laravel', 'Vue.js', 'Next.js', 'React', 'Flask'] },
     { name: 'Databases', skills: ['MySQL', 'PostgreSQL', 'MongoDB'] },
     { name: 'DevOps & Cloud', skills: ['Docker', 'Kubernetes', 'GitLab CI/CD', 'GitHub Actions', 'Jenkins', 'Terraform', 'OCI'] },
     { name: 'Systems', skills: ['Linux Admin', 'Bash Scripting'] },
